@@ -6,8 +6,8 @@ int main() {
     int a = 10, b = 20, c = 30, d = 40, e = 50;
     int *pointer_array[5] = {&a, &b, &c, &d, &e};
 
-    printf("sizeof(array_pointer) = %zu\n", sizeof(array_pointer));
-    printf("sizeof(pointer_array) = %zu\n", sizeof(pointer_array));
+    printf("sizeof(array_pointer): %zu\n", sizeof(array_pointer));
+    printf("sizeof(pointer_array): %zu\n", sizeof(pointer_array));
     printf("\n");
     for (int i = 0; i < 4; i++) {
         printf("%p\n", (void *)(array_pointer + i));
