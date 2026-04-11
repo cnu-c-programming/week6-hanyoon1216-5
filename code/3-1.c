@@ -7,6 +7,7 @@ void print_array(int arr[][3]) {
         }
         printf("\n");
     }
+    printf("\n");
 }
 
 int main() {
